@@ -1,0 +1,279 @@
+.contenedor{
+    background-color: aquamarine;
+    display: flex;/*que se ajusten la tamaño del dispositivo*/
+    height: 600px;
+    width: 1000px;
+    margin: auto; /*sirve para centrear*/
+
+    /*width: 600px;
+    padding: 10px;
+    height: 600px;
+    flex-direction: row;/*direcciona las cajas*/
+    /*flex-wrap: wrap;respeta el tamaño de las cajas*/
+}
+
+.puerta1{
+    display: flex;
+    background-color: yellow;
+    margin: 5px;
+    display: inline-block; /*coloca una caja a lado de otra*/
+    width: 278px;
+    height: 550px;
+    position: relative;
+    top: 17px;
+    left: 20px;
+}
+.puerta2{
+    display: flex;
+    background-color: yellow;
+    margin: 5px;
+    display: inline-block; /*coloca una caja a lado de otra*/
+    width: 375px;
+    height: 550px;
+    position: relative;
+    top: 17px;
+    left: 20px;
+}
+.puerta3{
+    display: flex;
+    background-color: yellow;
+    margin: 5px;
+    display: inline-block; /*coloca una caja a lado de otra*/
+    width: 278px;
+    height: 550px;
+    position: relative;
+    top: 17px;
+    left: 20px;
+}
+.caja1_1{
+    display: flex;
+    background-color: red;
+    width: 120px;
+    height: 200px;
+    margin: 4px;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+.caja1_2{
+    display: flex;
+    background-color: red;
+    width: 120px;
+    height: 200px;
+    margin: 4px;
+    position: relative;
+    top: 80px;
+    left: 15px;
+}
+.caja1_3{
+    display: flex;
+    background-color: red;
+    width: 120px;
+    height: 200px;
+    margin: 4px;
+    position: relative;
+    left: 140px;
+    top: -378px;
+}
+.caja1_4{
+    display: flex;
+    background-color: red;
+    width: 120px;
+    height: 200px;
+    margin: 4px;
+    position: relative;
+    left: 140px;
+    top: -328px;
+}
+.caja2_1{
+    display: flex;
+    background-color: green;
+    width: 110px;
+    height: 140px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.caja2_2{
+    background-color: green;
+    width: 110px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+    top: -130px;
+}
+.caja2_3{
+    display: flex;
+    background-color: green;
+    width: 110px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+    top: -270px;
+    left: 120px;
+}
+.caja2_4{
+    display: flex;
+    background-color: green;
+    width: 110px;
+    height: 140px;
+    position: relative;
+    top: -220px;
+    left: 10px;
+}
+.caja2_5{
+    display: flex;
+    background-color: green;
+    width: 110px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+    top: -360px;
+}
+.caja2_6{
+    display: flex;
+    background-color: green;
+    width: 110px;
+    height: 140px;
+    position: relative;
+    top: -500px;
+    left: 250px;
+}
+.caja2_7{
+    display: flex;
+    background-color: green;
+    width: 110px;
+    height: 140px;
+    position: relative;
+    top: -460px;
+    left: 10px;
+}
+.caja2_8{
+    display: flex;
+    background-color: green;
+    width: 110px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+    top: -600px;
+}
+.caja2_9{
+    display: flex;
+    background-color: green;
+    width: 110px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+    top: -740px;
+    left: 118px;
+}
+.cajaA{
+    display: flex;
+    background-color: fuchsia;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+.cajaB{
+    display: flex;
+    background-color: fuchsia;
+    width: 50px;
+    height: 50px;
+    width: 60px;
+    height: 180px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+.cajaC{
+    display: flex;
+    background-color: fuchsia;
+    width: 50px;
+    height: 50px;
+    width: 60px;
+    height: 180px;
+    position: relative;
+    top: -140px;
+    left: 170px;
+}
+.cajaD{
+    display: flex;
+    background-color: fuchsia;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    position: relative;
+    top: -120px;
+}
+.cajaE{
+    display: flex;
+    background-color: fuchsia;
+    width: 50px;
+    height: 50px;
+    width: 60px;
+    height: 180px;
+    position: relative;
+    top: -100px;
+    left: 50px;
+}
+.cajaF{
+    display: flex;
+    background-color: fuchsia;
+    width: 50px;
+    height: 50px;
+    width: 60px;
+    height: 180px;
+    position: relative;
+    top: -280px;
+    left: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.caja1{
+    background-color: red;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 1; /*cambia el orden de las cajas*/
+}
+.caja2{
+    background-color: yellow;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 3;
+    order: 4;
+}
+.caja3{
+    background-color: greenyellow;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 5;
+    order: 3;
+}
+.caja4{
+    background-color: purple;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 2;
+}
+.cajaA{
+    background-color: fuchsia;
+}
